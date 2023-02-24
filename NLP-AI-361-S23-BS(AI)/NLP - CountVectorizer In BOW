@@ -1,0 +1,23 @@
+Concept of Count-Vectorizer and why it is used? in Bag of words:
+
+Count-Vectorizer is a feature extraction method used in natural language processing (NLP) and other text-based data analysis tasks.
+The goal of this method is to convert a collection of documents into a numerical representation.
+That representations can be used as input to machine learning algorithms.
+
+Basic idea behind Count-Vectorizer is to take a set of documents and represent each document as a vector of word counts.
+Where each element in the vector corresponds to the number of times a particular word occurs in the document.
+This representation is often referred to as a "bag of words" representation.
+Because the order of the words in the document is not taken into account.
+For BOW and the only information retained is the frequency of occurrence of each word.
+
+Count-Vectorizer is widely used in NLP because it is simple to implement, easy to interpret.
+It can be used with a variety of algorithms,including those based on linear models, trees, and neural networks.
+Additionally, it can handle text data that contains different levels of noise, such as misspelled words,
+non-standard word forms, and stop words.
+
+One potential drawback of using Count-Vectorizer is that it can lead to very high-dimensional representations.
+especially when working with large corpora of text data.
+This can result in the curse of dimensionality, where the number of features exceeds the number of instances.
+This may lead to poor performance of machine learning algorithms.
+To mitigate this problem, various feature selection and dimensionality reduction techniques can be applied.
+
