@@ -28,4 +28,6 @@ features = vectorizer.get_feature_names_out()
 
 # Print the results
 print("Vocabulary size: ", len(vocab))
-print("First 50 features: ", features[:50])
+print("First 10-60 features: ", features[10:50])
+print("---------------------")
+print("Last 50 features: ", features[24808:24868])
